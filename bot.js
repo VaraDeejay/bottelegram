@@ -8,7 +8,7 @@ const token = '7981820861:AAF9-EQmWTya5v-JsmdwOZQE6qdRJK6VqW8';
 const WEB_APP_URL = 'https://prestapp.online/#/welcome';
 
 // Crea una instancia del bot
-const bot = new TelegramBot(token, { polling: true });
+const bot = new TelegramBot(token, { polling: false });
 
 // Crea una instancia de Express
 const app = express();
